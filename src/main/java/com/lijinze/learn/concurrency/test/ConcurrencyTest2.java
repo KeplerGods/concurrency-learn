@@ -13,8 +13,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.DoubleAdder;
-import java.util.concurrent.atomic.LongAdder;
 
 import com.lijinze.learn.annotations.Recommend;
 import com.lijinze.learn.annotations.ThreadSafe;
@@ -41,9 +39,9 @@ public class ConcurrencyTest2 {
 	// 使用原子类
 	private final static AtomicInteger count = new AtomicInteger(0);
 
-	private final static LongAdder count2 = new LongAdder();
-	
-	private final static DoubleAdder d=new DoubleAdder();
+//	private final static LongAdder count2 = new LongAdder();
+//	
+//	private final static DoubleAdder d=new DoubleAdder();
 
 	/**
 	 * @描述
